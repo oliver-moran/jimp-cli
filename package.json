@@ -1,0 +1,42 @@
+{
+  "name": "jimp-cli",
+  "version": "0.0.1",
+  "description": "The command line interface for Jimp, an image processing library for Node written entirely in JavaScript.",
+  "main": "cli.js",
+  "bin" : { "jimp" : "./cli.js" },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliver-moran/jimp-cli.git"
+  },
+  "keywords": [
+    "image",
+    "image",
+    "processing",
+    "image",
+    "manipulation",
+    "cli",
+    "command",
+    "line",
+    "png",
+    "jpg",
+    "jpeg",
+    "bmp",
+    "resize",
+    "scale",
+    "crop"
+  ],
+  "author": "Oliver Moran <oliver.moran@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliver-moran/jimp-cli/issues"
+  },
+  "homepage": "https://github.com/oliver-moran/jimp-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "jimp": "^0.2.15"
+  }
+}
